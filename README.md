@@ -17,7 +17,7 @@ Build the image
 
 Syntax: docker build -t 'your_dockerhub/container:tag' .
 
-3. docker build -t aletipavan/nginx-docker-example:0.2 .
+3. docker build -t aletipavan/nginx-docker-example:0.4 .
 
 Sending build context to Docker daemon  52.74kB
 Step 1/3 : FROM nginx:alpine
@@ -34,7 +34,7 @@ Run Container of created image
 ------------------------------
 I'm running with detach mode to push the run to the background. you can ignore --detach of the below command. Try with and without --detach to the command to know the difference.
 
-4. docker run -p 80:80 --detach  aletipavan/nginx-docker-example:0.1
+4. docker run -p 80:80 --detach aletipavan/nginx-docker-example:0.4
 
 07e1643af0832ee393b771709345c66fd774477240bce3ce50e4034d55cc8261
 
