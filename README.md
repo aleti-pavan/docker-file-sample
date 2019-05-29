@@ -43,3 +43,10 @@ Look the response from container with curl
 
 5. curl http://localhost:80
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aleti Pavan Kumar..!!</title>
+<p><em>Thank you reading.</em></p>
+</body>
+</html>
