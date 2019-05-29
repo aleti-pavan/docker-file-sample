@@ -43,10 +43,19 @@ Look the response from container with curl
 
 5. curl http://localhost:80
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Aleti Pavan Kumar..!!</title>
-<p><em>Thank you reading.</em></p>
-</body>
-</html>
+Output would be something similar to below code
+
+<HEAD>
+<TITLE>Basic HTML Sample Page</TITLE>
+</HEAD>
+<BODY BGCOLOR="WHITE">
+<CENTER>
+<H1>A Simple Sample Web Page</H1>
+
+ 
+
+  <IMG SRC="car_skating_pic.jpg" height="242" width="242">
+
+
+6. Open web browser and put "http://localhost:80" as url, you should see the custom index.html file with picture
+
